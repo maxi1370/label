@@ -15,6 +15,6 @@ jobs:
 
       - name: Echo FLAG Variable
         env:
-          FLAG: ${{ secrets.FLAG }}
+          FLAG: ${{ vars.flag }}
         run: echo $FLAG
         
